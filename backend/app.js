@@ -270,6 +270,34 @@ app.post('/klubber/:id/baner', (req, res) => {
     }
 });
 
+// Hent alle baner fra alle klubber
+app.get('/baner', (req, res) => {
+    db.collection('Klubb')
+        .find({}, { projection: { baner: 1 } })
+        .toArray()
+        .then(klubber => {
+            const alleBaner = klubber.flatMap(klubb => klubb.baner || []);
+            res.status(200).json(alleBaner);
+        })
+        .catch(err => {
+            res.status(500).json({ error: 'Feil ved henting av baner' });
+        });
+});
+
+// Hent alle nyheter fra alle klubber
+app.get('/nyheter', (req, res) => {
+    db.collection('Klubb')
+        .find({}, { projection: { nyheter: 1 } })
+        .toArray()
+        .then(klubber => {
+            const alleNyheter = klubber.flatMap(klubb => klubb.nyheter || []);
+            res.status(200).json(alleNyheter);
+        })
+        .catch(err => {
+            res.status(500).json({ error: 'Feil ved henting av nyheter' });
+        });
+});
+
 //Brukerhåndterings ruter
 
 //Registrering av bruker

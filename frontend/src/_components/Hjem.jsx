@@ -79,26 +79,16 @@ const Hjem = () => {
         <div className="relative p-4 mt-30">
             <h1 className="text-4xl text-left ">Turneringer</h1>
             <p className="mt-4 text-gray-600 leading-relaxed text-3xl text-left">
-            Delta i spennende turneringer og utfordr deg selv sammen med andre disc golf-spillere!
+            Delta i spennende turneringer for å utfordre deg selv sammen med andre disc golf-spillere!
             </p>
         </div>
     </div>
 </div>
 
         
-    <h1 className="text-4xl font-sans mt-20 font-bold">Sjekk værforholdene før du spiller!</h1>
-    <div className="flex justify-center mt-1 w-full ">
-    
-    <iframe 
-        title="YR værmelding"
-        src="https://www.yr.no/nb/innhold/1-72837/table.html" 
-        className="w-full h-[550px] pointer-events-none"
-        
-    >
-    </iframe>
-    <div className="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0);"></div>
 
-    </div>
+
+
    
 
         
@@ -111,11 +101,11 @@ const Hjem = () => {
 </div>
 
   
-     <div className="mt-8 grid">
+     <div className="mt-8 flex justify-center">
             <button onClick={handleTommeTestdata} className="py-4 px-8 bg-red-500 rounded-lg text-sm text-white justify-self-end">
                 Tøm testdata
             </button>
-        </div>
+    </div>
 
 
 </header>
