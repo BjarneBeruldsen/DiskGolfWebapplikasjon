@@ -1,4 +1,4 @@
-//Author: Laurent Zogaj
+
 const loggUtBruker = async () => {
     try {
         const respons = await fetch(`${process.env.REACT_APP_API_BASE_URL}/Utlogging`, {

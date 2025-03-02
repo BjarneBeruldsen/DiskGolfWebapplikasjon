@@ -1,4 +1,4 @@
-//Author: Laurent Zogaj
+
 
 import React from 'react';
 

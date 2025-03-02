@@ -1,4 +1,4 @@
-//Authors: Bjarne Beruldsen, Abdinasir Ali & Laurent Zogaj
+//Authors: Bjarne Beruldsen
 
 import React, { useState, useEffect } from 'react';
 import LagKlubb from './KlubbHandtering/LagKlubb';
