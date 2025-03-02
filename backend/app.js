@@ -1,4 +1,4 @@
-//Authors: Bjarne Beruldsen & Laurent Zogaj
+//Authors: Bjarne Beruldsen 
 
 const express = require('express');
 const cors = require('cors');
