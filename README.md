@@ -1,6 +1,6 @@
 # DiskGolfWebapplikasjon
 Webapplikasjon for diskgolf. Der brukere kan lese nyheter, finne turneringer og baner.
-Dette er et gruppe prosjekt med periode: 1.01.25-24.04.25. 
+Dette er et gruppe prosjekt under arbeid med periode: 1.01.25-24.04.25. 
 
 I dette prosjektet er mitt ansvar og opprette database og koble frontend med backend. 
 Dette ved bruk av MongoDB som database og REST-API via Express og node.js. 
