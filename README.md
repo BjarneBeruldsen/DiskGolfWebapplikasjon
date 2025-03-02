@@ -6,3 +6,4 @@ Dette ved bruk av MongoDB som database og REST-API via Express og node.js.
 
 Jeg jobber med klubbhåndtering. Det vil si GUI for oppretting av klubbside, der man kan legge til nyheter, baner og turneringer. 
 
+
