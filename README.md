@@ -9,4 +9,6 @@ I tillegg jobber med klubbhåndtering. Det vil si GUI for oppretting av klubbsid
 
 Merk: Dette er en kopi av orginal repository som er privat. Derfor er det nærmest ingen aktivitet. 
 
+## Visning av funksjonalitet jeg har implementert 
+
 
